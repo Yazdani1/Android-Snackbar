@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="ingenium.android_snackbar.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#900B66"
+        android:id="@+id/normal_xml"
+        android:text="Normal Snackbar"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#900B66"
+        android:id="@+id/action_xml"
+        android:text="Action Snackbar"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#900B66"
+        android:id="@+id/custom_xml"
+        android:text="Custom Snackbar"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout>
